@@ -1,8 +1,28 @@
 # Comparator verification
 
-The check covers all 12 numbered results from the frozen manuscript. Lemmas 2.2 and 2.3 each have two separate conclusions, for a total of 14 declarations. [Statements.lean](Statements.lean) records the propositions explicitly and uses the shared definitions for the Hessians, boundary jets, and norms. The theorem proofs enter through [Solution.lean](Solution.lean). The proof holes in [Challenge.lean](Challenge.lean) represent the work assigned to the solution. The `CHS` library's default build is independent of the challenge.
+## Independent challenge for the four main results
 
-Comparator checks statement equality and the transitive axiom allowlist, then replays the exported declarations in Lean and Nanoda. The allowlist is `propext`, `Classical.choice`, and `Quot.sound`. Review the propositions against the manuscript as well as checking the formal proofs.
+Theorems 1.1, 1.2, 1.3 and Corollary 1.4 have an independent
+[challenge](MathlibOnly/Challenge.lean) and [configuration](MathlibOnly/config.json).
+The challenge imports [Statements.lean](MathlibOnly/Statements.lean), which imports
+only Mathlib modules. The statements use real Euclidean coordinates on
+ℂⁿ, explicit Wirtinger formulas, continuous extensions of the interior derivatives
+to the closure, and the entrywise maximum of the scalar Lebesgue `L∞` seminorms.
+Theorem 1.1 uses the manuscript's sign-free hypotheses.
+
+[Bridge.lean](MathlibOnly/Bridge.lean) proves both directions of equivalence with
+the original propositions. [Solution.lean](MathlibOnly/Solution.lean) applies
+these equivalences to the existing `CHS.Paper` proofs. The four proof holes are
+in the independent challenge and never enter the solution. To build the two modules
+from the repository root, run
+
+```sh
+lake build +CHSComparator.MathlibOnly.Challenge +CHSComparator.MathlibOnly.Solution
+```
+
+## Original full-manuscript suite
+
+The original check covers all 12 numbered results from the frozen manuscript. Lemmas 2.2 and 2.3 each have two separate conclusions, for a total of 14 declarations. [Statements.lean](Statements.lean) records the propositions using the shared definitions for the Hessians, boundary jets, and norms. The theorem proofs enter through [Solution.lean](Solution.lean). The proof holes in [Challenge.lean](Challenge.lean) represent the work assigned to the solution. The `CHS` library's default build is independent of both challenges.
 
 | Manuscript result | Declaration in `CHSComparator.Targets` |
 | --- | --- |
@@ -14,6 +34,11 @@ Comparator checks statement equality and the transitive axiom allowlist, then re
 | Lemma 3.1 and Proposition 3.2 | `lemma_3_1`, `proposition_3_2` |
 
 ## Reproduce the check on Linux
+
+Comparator checks statement equality and the transitive axiom allowlist, then replays
+the exported declarations in Lean and Nanoda. Both suites permit `propext`,
+`Classical.choice`, and `Quot.sound`. Review the propositions against the manuscript
+as well as checking the formal proofs.
 
 Install Elan, Git and the dependencies for [Landrun](https://github.com/Zouuup/landrun) and [Nanoda](https://github.com/ammkrn/nanoda_lib). Use an unprivileged Linux account with Landlock and a working systemd user session. Prepare the project dependencies with `lake exe cache get`. The repository uses the standalone Comparator compatible with its Lean 4.33.1 pin.
 
@@ -32,9 +57,17 @@ systemd-run --user --wait --pipe --collect \
   --setenv="COMPARATOR_LEAN4EXPORT=$COMPARATOR_LEAN4EXPORT" \
   --setenv="COMPARATOR_LANDRUN=$COMPARATOR_LANDRUN" \
   --setenv="COMPARATOR_NANODA=$COMPARATOR_NANODA" \
-  lake env "$CHS_COMPARATOR" CHSComparator/config.json
+  lake env "$CHS_COMPARATOR" CHSComparator/MathlibOnly/config.json
 ```
+
+Use `CHSComparator/config.json` in the same command to run the original suite.
 
 An accepted run reports `Nanoda kernel accepts the solution`, `Lean default kernel accepts the solution`, and `Your solution is okay!`. Record the checked Git revision and the full log for the release. The upstream invocation and trust assumptions are documented in the [standalone Comparator guide](https://github.com/leanprover/comparator/tree/3927ad383f208ae977c340a91c48ac9b497d2097).
 
-The [Linux verification receipt](linux-verification.json) identifies the exact proof and build inputs by SHA-256. The recorded run used Ubuntu 24.04 ARM64, Landlock ABI 4, and the pinned Comparator's Landrun best-effort mode. Control checks confirmed that Landrun blocked a write outside the writable directory and systemd blocked AF_UNIX socket creation.
+The [independent challenge receipt](MathlibOnly/linux-verification.json) records
+the isolated Mathlib build, four verified targets, axiom reports, and SHA-256 hashes
+of the proof and build inputs. The Ubuntu 24.04 ARM64 run used Landlock ABI 4 and
+the pinned Comparator's Landrun best-effort mode. Control checks confirmed that
+Landrun blocked a write outside the writable directory and systemd blocked
+AF_UNIX socket creation. The [v0.1.0 receipt](linux-verification.json) records
+the run of the original suite.

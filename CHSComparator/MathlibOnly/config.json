@@ -1,0 +1,17 @@
+{
+  "challenge_module": "CHSComparator.MathlibOnly.Challenge",
+  "solution_module": "CHSComparator.MathlibOnly.Solution",
+  "theorem_names": [
+    "CHSComparator.MathlibOnly.Targets.theorem_1_1",
+    "CHSComparator.MathlibOnly.Targets.theorem_1_2",
+    "CHSComparator.MathlibOnly.Targets.theorem_1_3",
+    "CHSComparator.MathlibOnly.Targets.corollary_1_4"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

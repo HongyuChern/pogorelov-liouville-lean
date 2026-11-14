@@ -1,11 +1,23 @@
-# First public release of the CHS formalization
+# v0.1.1 — Independent Comparator for the four main CHS results
 
-This release accompanies the Lean 4 formalization of *Pogorelov interior estimates and a Liouville theorem for the complex Monge–Ampère equation* by Hongyu Chen, Jingchen Hu, and Li Sheng. It covers the three main theorems, Corollary 1.4, and the eight numbered supporting results in [arXiv:2609.18265v1](https://arxiv.org/abs/2609.18265v1).
+Theorems 1.1, 1.2, and 1.3 and Corollary 1.4 now have an independent
+[Mathlib-only challenge](CHSComparator/MathlibOnly/Challenge.lean). The
+[statements](CHSComparator/MathlibOnly/Statements.lean) spell out the Hessians,
+boundary regularity, and norms. Lean proves that each proposition is equivalent
+to its counterpart in the original suite. The solution applies the existing
+`CHS.Paper` proofs through these equivalences.
 
-The formalization proves interior estimates for the full real Hessian and quadratic rigidity for entire smooth solutions. The Liouville argument proves the Hessian Hölder estimate needed for the complex Monge–Ampère equation and uses its scaling on expanding balls. Corollary 1.4 allows real convexity outside a compact set.
+The challenge built in a standalone Lake project with Mathlib as its sole
+direct dependency. On Ubuntu 24.04 ARM64, the repository build succeeded and
+the Linux Comparator accepted all four proofs in both Lean and Nanoda. The
+axiom audit lists only `propext`, `Classical.choice`, and `Quot.sound`.
+The [Linux verification receipt](CHSComparator/MathlibOnly/linux-verification.json)
+records the tool revisions, axiom reports, and SHA-256 hashes of the checked
+sources. The [verification guide](CHSComparator/README.md) gives the commands.
 
-- **Lean entry point** `import CHS`. See [the public declarations](CHS/PaperTargets.lean).
-- **Reproducibility** Lean 4.33.1 and Mathlib revision `0df444a360eaa60ab8c11dca51a86af692955474`. See [build instructions](README.md#build) and [Comparator targets and commands](CHSComparator/README.md).
-- **Verification** The default build passed on Ubuntu 24.04 ARM64. All 14 declarations passed Comparator in the Linux Landrun sandbox and were accepted by the Lean and Nanoda kernels. Only `propext`, `Classical.choice`, and `Quot.sound` are permitted. [Verification receipt](CHSComparator/linux-verification.json)
-- **Attribution** The source includes the De Giorgi modules used in the proofs. [Source revisions, licenses, and modifications](THIRD_PARTY.md)
-- **License** CHS code is available under [Apache-2.0](LICENSE).
+The [original Comparator suite](CHSComparator/config.json) covers all 12
+numbered results in [arXiv:2609.18265v1](https://arxiv.org/abs/2609.18265v1).
+Its full-manuscript run is recorded in the
+[v0.1.0 verification receipt](CHSComparator/linux-verification.json).
+
+[Full changes from v0.1.0](https://github.com/HongyuChern/pogorelov-liouville-lean/compare/v0.1.0...v0.1.1)

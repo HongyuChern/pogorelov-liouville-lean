@@ -24,9 +24,11 @@ lake build
 
 ## Verify
 
-Comparator checks the 12 numbered results through 14 declarations, with separate declarations for the two conclusions of Lemmas 2.2 and 2.3. The challenge uses the definitions of the Hessians, closure jets, and norms listed in the verification guide. The allowed axioms are `propext`, `Classical.choice`, and `Quot.sound`. [Targets and reproduction instructions](CHSComparator/README.md)
+The four main results have an [independent Mathlib-only challenge](CHSComparator/MathlibOnly/Challenge.lean). Its [statements](CHSComparator/MathlibOnly/Statements.lean) spell out the Hessians, boundary regularity, and norms independently of the proof library. Lean proves that each proposition is equivalent to its counterpart in the original suite.
 
-The default build and the Comparator run passed on Ubuntu 24.04 ARM64. Comparator ran under Landrun and a systemd user service and accepted all targets in both Lean and Nanoda. [Verification receipt and source hashes](CHSComparator/linux-verification.json)
+The [original suite](CHSComparator/config.json) covers all 12 numbered results through 14 declarations using the shared CHS definitions. Both suites use Lean and Nanoda and allow only `propext`, `Classical.choice`, and `Quot.sound`. [Targets and Linux reproduction instructions](CHSComparator/README.md)
+
+The independent challenge built in a standalone Lake project whose sole direct dependency was Mathlib. On Ubuntu 24.04 ARM64, the repository build succeeded and both kernels accepted the four main proofs. The receipt records the tool revisions, axiom audit, and SHA-256 hashes of the checked inputs. [Linux verification receipt](CHSComparator/MathlibOnly/linux-verification.json) · [v0.1.1 release](https://github.com/HongyuChern/pogorelov-liouville-lean/releases/tag/v0.1.1)
 
 ## Source and attribution
 
