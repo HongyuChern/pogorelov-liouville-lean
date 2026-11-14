@@ -1,0 +1,680 @@
+{
+  "repository": "https://github.com/qinz1yang/differential-geometry",
+  "revision": "7a48598d35109aa99d1cc678e2724c213cdf4ff3",
+  "license": "Apache-2.0",
+  "files": [
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/BallExtension.lean",
+      "sha256": "b770a25da1ae027fc1142d20a2fed5bbd5e9f37895060b442abcaecf282ef98d",
+      "bytes": 5827,
+      "chs_sha256": "b770a25da1ae027fc1142d20a2fed5bbd5e9f37895060b442abcaecf282ef98d",
+      "upstream_git_blob": "50c711a9aba000b57b6738d6c9449b22279a9d63"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/BallExtension/ApproximationControl.lean",
+      "sha256": "a1aa0754d89eb59ba17b8af9f100cc2daa6fecc348742a3863d1820935278f5a",
+      "bytes": 57083,
+      "chs_sha256": "a1aa0754d89eb59ba17b8af9f100cc2daa6fecc348742a3863d1820935278f5a",
+      "upstream_git_blob": "5a0b91422ad23c703c7f4e134d6553020ccc6903"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/BallExtension/Core.lean",
+      "sha256": "5f40b2cc994ce125ea26c389e08b7034a1daa3ac8cceafb2fdf897f451041fb2",
+      "bytes": 2857,
+      "chs_sha256": "5f40b2cc994ce125ea26c389e08b7034a1daa3ac8cceafb2fdf897f451041fb2",
+      "upstream_git_blob": "2b4b6b0b6adcf31057cde479de3110d8f8d03eb3"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/BallExtension/Geometry.lean",
+      "sha256": "8bac73cdb0d19342a616de5928fe4fbacc395481fa3a4159c1b489de667896be",
+      "bytes": 21910,
+      "chs_sha256": "34620f811fb4f50cf0d6c1d1716665232ee916d794fedfbc79a06c6d6058d7be",
+      "modification": "Mathlib imports and CHS modification notice",
+      "upstream_git_blob": "d4b653e5e45f2d36ec9f92cd7e305daa44a703ac"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/BallExtension/RoughInput.lean",
+      "sha256": "67f6beddf52ff2b593d6a5458cc9666c1c9ff194b82c64fd5a1df3854051ff57",
+      "bytes": 44133,
+      "chs_sha256": "67f6beddf52ff2b593d6a5458cc9666c1c9ff194b82c64fd5a1df3854051ff57",
+      "upstream_git_blob": "4985c9464c030cdfc993b082e84b05d9435066ef"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/BallExtension/SmoothApproximation.lean",
+      "sha256": "225c25185e09b0fd907c6a8f94ecdae78d8ef8bc14b39fabda4a0f8e9dc04fff",
+      "bytes": 84197,
+      "chs_sha256": "343249a44b5f25a1b37a5af9322f980b5c06a222a1f6e3c7cadaf5374b595d6a",
+      "modification": "Mathlib imports and CHS modification notice",
+      "upstream_git_blob": "81bb2decedcd10f5ea0cdc0381be020a72c7c792"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/BallExtension/SmoothCore.lean",
+      "sha256": "9cdab14380f39df2ebd89d5f94816f98b90420566dd48f37c047634dd4b4a122",
+      "bytes": 14961,
+      "chs_sha256": "9cdab14380f39df2ebd89d5f94816f98b90420566dd48f37c047634dd4b4a122",
+      "upstream_git_blob": "e96302a413627a3adaca2badc5f8d897d601e4f4"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/BallExtensionEstimates.lean",
+      "sha256": "d94ce5644829ff6a5951cf602b569d2738a53def0f1b935ab8f06b599eab4006",
+      "bytes": 53484,
+      "chs_sha256": "d94ce5644829ff6a5951cf602b569d2738a53def0f1b935ab8f06b599eab4006",
+      "upstream_git_blob": "bfc547229500566b600c680c00a75a102f2498df"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/BallScaling.lean",
+      "sha256": "bbb59195923d72cc71759939dfb49d292aee7bcbed8cd5969cd1f61bd7fe9a2e",
+      "bytes": 36339,
+      "chs_sha256": "bbb59195923d72cc71759939dfb49d292aee7bcbed8cd5969cd1f61bd7fe9a2e",
+      "upstream_git_blob": "0866982c7dcd669dd40f0d0c0a86f698e2de062f"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/Common.lean",
+      "sha256": "82f70971c573e42189e19dd37147fc3781ad13f2b31e9ca43553b07a4ad5e869",
+      "bytes": 463,
+      "chs_sha256": "53710e7a8c8272c26c8babe61adfd50c1683ba8afb64cdd1fcc15a80d8634b32",
+      "modification": "Mathlib imports and CHS modification notice",
+      "upstream_git_blob": "b6f39b5baf13f4385495a7de84b8a0eecb6c360b"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/Crossover.lean",
+      "sha256": "5ba927f4e798db64a827658f26bc5358292c2ecb10dba67f4b37a3f6b9dbcf41",
+      "bytes": 237,
+      "chs_sha256": "5ba927f4e798db64a827658f26bc5358292c2ecb10dba67f4b37a3f6b9dbcf41",
+      "upstream_git_blob": "90020f4a6e2551e80285cdf972058cf9144641ec"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/Crossover/ExponentialIntegrability.lean",
+      "sha256": "6c3bf269a771bfd8f515821861b087b26653c807c2d9120ede725207f59ffc28",
+      "bytes": 96342,
+      "chs_sha256": "6c3bf269a771bfd8f515821861b087b26653c807c2d9120ede725207f59ffc28",
+      "upstream_git_blob": "c62ef4c75df6108c4456c00bd62c9a23eb7f90ed"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/Crossover/LocalIntegrability.lean",
+      "sha256": "b898c16f957c3ae4fb2c4d0657255613edc3ac5caa8e88b2a00a509d48296bc5",
+      "bytes": 34265,
+      "chs_sha256": "b898c16f957c3ae4fb2c4d0657255613edc3ac5caa8e88b2a00a509d48296bc5",
+      "upstream_git_blob": "cdcad41cad8a5911357da003beff80b4fd3147cc"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/Crossover/LogGradient.lean",
+      "sha256": "1fd6d6d698f47e06d2f9e12015831ccfedd48cec541adb47894fb06fedc3cd2f",
+      "bytes": 66772,
+      "chs_sha256": "1fd6d6d698f47e06d2f9e12015831ccfedd48cec541adb47894fb06fedc3cd2f",
+      "upstream_git_blob": "c76d7b815c5cd83f3fb725a38637daea89c82b27"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/Crossover/ProductBound.lean",
+      "sha256": "cd335500e974e4e5522e9cc4aca949dd8e9df01de9a98181f860f0eeb1b85513",
+      "bytes": 28881,
+      "chs_sha256": "cd335500e974e4e5522e9cc4aca949dd8e9df01de9a98181f860f0eeb1b85513",
+      "upstream_git_blob": "d2054ca69fa15ac80ff7730c3505e7036fa34a4b"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/Crossover/PublicEstimate.lean",
+      "sha256": "692d9c1f4a4dba7896824831ae5b561a935d072fdc2c9b078ab2b494dc8757aa",
+      "bytes": 8800,
+      "chs_sha256": "692d9c1f4a4dba7896824831ae5b561a935d072fdc2c9b078ab2b494dc8757aa",
+      "upstream_git_blob": "62e398f8dad72e5c7ad6138782f370493368c53c"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/DeGiorgiIteration.lean",
+      "sha256": "c4f1d2e21bdc368b66df65e9c1f6e0a05db5a5a74c881ee045b811de19486223",
+      "bytes": 327,
+      "chs_sha256": "c4f1d2e21bdc368b66df65e9c1f6e0a05db5a5a74c881ee045b811de19486223",
+      "upstream_git_blob": "60934405c9e282012b0cd752ce20ee0057f2982b"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/DeGiorgiIteration/CutoffAdmissibility.lean",
+      "sha256": "ba4ef3df8e3fa03a5311bd6445e0a9f971662f15e841c9235ea5293fdb04c343",
+      "bytes": 12100,
+      "chs_sha256": "ba4ef3df8e3fa03a5311bd6445e0a9f971662f15e841c9235ea5293fdb04c343",
+      "upstream_git_blob": "3743e732fc9ff178a2cd00cd4fc5653191bc089d"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/DeGiorgiIteration/Energy.lean",
+      "sha256": "858cd7939ca2dcc23e715759af8a73c03e5638017fe4b0e935e578deb5145783",
+      "bytes": 55261,
+      "chs_sha256": "858cd7939ca2dcc23e715759af8a73c03e5638017fe4b0e935e578deb5145783",
+      "upstream_git_blob": "410a3807a2238823f0f1f0b0d666aebf8f5c1da5"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/DeGiorgiIteration/Linfty.lean",
+      "sha256": "aaadd62a2a9d240212ec18255fae09e91dd5b3ae2879ebbfc3323821dd759ae4",
+      "bytes": 62442,
+      "chs_sha256": "aaadd62a2a9d240212ec18255fae09e91dd5b3ae2879ebbfc3323821dd759ae4",
+      "upstream_git_blob": "3ccfeef6a46c6ff1cc2e55db23aa89a991b703c1"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/DeGiorgiIteration/PreIteration.lean",
+      "sha256": "960f2040f8e232445f93cff4c04806b6c2bf5f8a89be2596073b94f61dd371ab",
+      "bytes": 54965,
+      "chs_sha256": "960f2040f8e232445f93cff4c04806b6c2bf5f8a89be2596073b94f61dd371ab",
+      "upstream_git_blob": "f019a163abc5645b1a592593c3f98340d897c74e"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/DeGiorgiIteration/Recurrence.lean",
+      "sha256": "52d4b1d2c8e5dd1c4ed87d267235db3b2a92bb5827b47a74d4d67e9f7ff13155",
+      "bytes": 14589,
+      "chs_sha256": "52d4b1d2c8e5dd1c4ed87d267235db3b2a92bb5827b47a74d4d67e9f7ff13155",
+      "upstream_git_blob": "ed057a98dcfb8a5a85e3ac10892c9ef95d58c0a3"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/DeGiorgiTheory.lean",
+      "sha256": "6177983abc0df21ff6f11267638fc0ccf4e5ceb403aaf900b0a4581189ff891a",
+      "bytes": 521,
+      "chs_sha256": "6177983abc0df21ff6f11267638fc0ccf4e5ceb403aaf900b0a4581189ff891a",
+      "upstream_git_blob": "de66f572235c9161b4bff61d8cf526e3246b3d01"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/EllipticCoefficients.lean",
+      "sha256": "5319119fb4b30ba4680872e60907ad1d0571392e8879c5a11631b528a4a46331",
+      "bytes": 10416,
+      "chs_sha256": "5319119fb4b30ba4680872e60907ad1d0571392e8879c5a11631b528a4a46331",
+      "upstream_git_blob": "81d5be27cbea363f378eef496ceb00f7491e5b33"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/FiniteCover.lean",
+      "sha256": "f1bbdcc8b3b9d24938b70b0cb015325df035bf5c8b5c59327c9948f67801f28b",
+      "bytes": 13785,
+      "chs_sha256": "f1bbdcc8b3b9d24938b70b0cb015325df035bf5c8b5c59327c9948f67801f28b",
+      "upstream_git_blob": "4ca0ab83b5636e1d1cc7b7ce7068ef581ae59057"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/Foundations.lean",
+      "sha256": "013daa6bb0fb93c4fedc874e9dab8868324732926a62be9b5e37f7bd3455d24c",
+      "bytes": 461,
+      "chs_sha256": "013daa6bb0fb93c4fedc874e9dab8868324732926a62be9b5e37f7bd3455d24c",
+      "upstream_git_blob": "29668ece5760076b73c0b5829cda14e1fa1b2c0f"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/Harnack.lean",
+      "sha256": "1c688fd54afb079615e85dc64e3b52b44e6240c91694215d7f77772b7684385f",
+      "bytes": 52479,
+      "chs_sha256": "1c688fd54afb079615e85dc64e3b52b44e6240c91694215d7f77772b7684385f",
+      "upstream_git_blob": "41aaedeb71508b14cf01a08e441e3cc14ab2c83b"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/Holder.lean",
+      "sha256": "2fed10ad9a53835e19334861ef5ab3fb37802073878c93009b4c9230a2ec0bea",
+      "bytes": 144,
+      "chs_sha256": "2fed10ad9a53835e19334861ef5ab3fb37802073878c93009b4c9230a2ec0bea",
+      "upstream_git_blob": "16aebd6847fab6b299c832e83772859f2bc676be"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/Holder/LocalBounds.lean",
+      "sha256": "f7992bcae809aef162299ef88210716443b6525313bd9a35652077f942aaf09d",
+      "bytes": 24963,
+      "chs_sha256": "f7992bcae809aef162299ef88210716443b6525313bd9a35652077f942aaf09d",
+      "upstream_git_blob": "729db14c794477945d9324479dc8ac219796f0e0"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/Holder/OscillationDecay.lean",
+      "sha256": "48a3fbc8e898e0b87d809be3b4c7623e812caf48fa58a0d920ca10c6a47e4692",
+      "bytes": 34220,
+      "chs_sha256": "48a3fbc8e898e0b87d809be3b4c7623e812caf48fa58a0d920ca10c6a47e4692",
+      "upstream_git_blob": "130508a64b99f774ddb19e5d2503906feb4ec83a"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/Holder/PublicEstimate.lean",
+      "sha256": "918a4c6e1ccf835661eb11a8c5330bc5a01b4035f20966bb350163f050078173",
+      "bytes": 3341,
+      "chs_sha256": "918a4c6e1ccf835661eb11a8c5330bc5a01b4035f20966bb350163f050078173",
+      "upstream_git_blob": "1b6af0be0cfabeebd87acaa04cbb2ddbbd202c9a"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/Holder/Representative.lean",
+      "sha256": "521eeab2191c8360bd3e2bfa84c87aac4d4ea94678cc3c747058e432b9952cba",
+      "bytes": 32646,
+      "chs_sha256": "521eeab2191c8360bd3e2bfa84c87aac4d4ea94678cc3c747058e432b9952cba",
+      "upstream_git_blob": "43e6c4c5ec77512f424ed2e80bf08e93d66e3924"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/Localization.lean",
+      "sha256": "439ebf6be0a7a4935350619ae3678feeee27b46c9f63ed1098f99a6e22b8497f",
+      "bytes": 28328,
+      "chs_sha256": "439ebf6be0a7a4935350619ae3678feeee27b46c9f63ed1098f99a6e22b8497f",
+      "upstream_git_blob": "6b5197fbff2dcf4217cb93aefe9bb392795da8ae"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/LpFunctionToolkit.lean",
+      "sha256": "01580a9e173032ad05cb5d425f5839adc2d6463d5613d46f88d89062f7e8fcf1",
+      "bytes": 22764,
+      "chs_sha256": "01580a9e173032ad05cb5d425f5839adc2d6463d5613d46f88d89062f7e8fcf1",
+      "upstream_git_blob": "61711a2786687e54da1ddc00ba93925961b06cce"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/MoserIteration.lean",
+      "sha256": "895bc6329d77ff471a6e3cdde0dc55766c75f7f1ca2066c483ce8341fb32075c",
+      "bytes": 313,
+      "chs_sha256": "895bc6329d77ff471a6e3cdde0dc55766c75f7f1ca2066c483ce8341fb32075c",
+      "upstream_git_blob": "4c04b3bbf3f8f786a216658ce01e1670abeda25e"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/MoserIteration/Constants.lean",
+      "sha256": "6fc0d6c7775e9b13bb54f282fac672c784d242e69c98991b5b1e47e622d20beb",
+      "bytes": 2330,
+      "chs_sha256": "6fc0d6c7775e9b13bb54f282fac672c784d242e69c98991b5b1e47e622d20beb",
+      "upstream_git_blob": "6e202bc10acf9e9e2c944e8d5fc94f937b4c5cfe"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/MoserIteration/CutoffPrep.lean",
+      "sha256": "e37bb5a9be7e7b8f079db25e6d3b9715165146369bab11448b57a230574da8f5",
+      "bytes": 842,
+      "chs_sha256": "e37bb5a9be7e7b8f079db25e6d3b9715165146369bab11448b57a230574da8f5",
+      "upstream_git_blob": "28c0c6e9030f0db975941351b9f2fdbca74bae08"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/MoserIteration/CutoffPrep/Basics.lean",
+      "sha256": "f307f94f0012909e729461d29d03658a5f04ed1830cde9fa076abe6c5c0e454e",
+      "bytes": 44619,
+      "chs_sha256": "f307f94f0012909e729461d29d03658a5f04ed1830cde9fa076abe6c5c0e454e",
+      "upstream_git_blob": "0749637cd24d3e8192de5df9589619c00d6933a7"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/MoserIteration/CutoffPrep/ExactRegularization.lean",
+      "sha256": "640b43b39e00a9b40f7a380174b3425117f899a1f4725fcd95bbc7d94b276a26",
+      "bytes": 44423,
+      "chs_sha256": "640b43b39e00a9b40f7a380174b3425117f899a1f4725fcd95bbc7d94b276a26",
+      "upstream_git_blob": "7522066633d3d7102edf240f22e06fcb3cf7037f"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/MoserIteration/CutoffPrep/PreEstimate.lean",
+      "sha256": "51ef0a5cc16bf19033bb85050509d1d977fdcf6a2a4ff18c2f71c3431a2eeea2",
+      "bytes": 23341,
+      "chs_sha256": "51ef0a5cc16bf19033bb85050509d1d977fdcf6a2a4ff18c2f71c3431a2eeea2",
+      "upstream_git_blob": "167e06afaa0e7ca915b61d082a7189d2d3a6114f"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/MoserIteration/CutoffPrep/Profiles.lean",
+      "sha256": "1d352afcc15b6355e7c792af0f0e52ab471cd70ef333f974fbd8e58491e7c3a1",
+      "bytes": 27806,
+      "chs_sha256": "1d352afcc15b6355e7c792af0f0e52ab471cd70ef333f974fbd8e58491e7c3a1",
+      "upstream_git_blob": "08ce6a8bdc24e38580b25e106e6abe9d04883e34"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/MoserIteration/CutoffPrep/RegularizedEnergy.lean",
+      "sha256": "227541599119be4e0e180f6fdce727862fdc858f46500855111ea84f78ce2392",
+      "bytes": 74107,
+      "chs_sha256": "227541599119be4e0e180f6fdce727862fdc858f46500855111ea84f78ce2392",
+      "upstream_git_blob": "a42d38b58480f8adaeddab3fa1cc05e5dc888ff6"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/MoserIteration/CutoffPrep/RegularizedWitnesses.lean",
+      "sha256": "155102cf032fffc886b022e6ac243ed9a9ad765a193e90474a1539d4148f4356",
+      "bytes": 8986,
+      "chs_sha256": "155102cf032fffc886b022e6ac243ed9a9ad765a193e90474a1539d4148f4356",
+      "upstream_git_blob": "b3efcdd5d4ea47f55aa2709f07719f90993f992c"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/MoserIteration/CutoffPrep/WitnessConstruction.lean",
+      "sha256": "c587ca3d90d5c9e2e8ecea9a804deaa14d737a8b488edbd6158cbd5ed000a3c5",
+      "bytes": 83739,
+      "chs_sha256": "c587ca3d90d5c9e2e8ecea9a804deaa14d737a8b488edbd6158cbd5ed000a3c5",
+      "upstream_git_blob": "0c46330a110e61b6f9f6e67c9a1046b95db3bd44"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/MoserIteration/Iteration.lean",
+      "sha256": "4fc7aff91b4e16a77605cf4ea4e9b84c3cb74f90ce71e039e982727e4fe806f9",
+      "bytes": 26144,
+      "chs_sha256": "4fc7aff91b4e16a77605cf4ea4e9b84c3cb74f90ce71e039e982727e4fe806f9",
+      "upstream_git_blob": "7e90b0fd9f7acc453b9659d71b3ead06e1490ca4"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/MoserIteration/Linfty.lean",
+      "sha256": "a5572702b7212a1b5ed03675b880f903df0e2260116f20a3b26d76bf35dfe2d9",
+      "bytes": 20621,
+      "chs_sha256": "a5572702b7212a1b5ed03675b880f903df0e2260116f20a3b26d76bf35dfe2d9",
+      "upstream_git_blob": "5ad77c9a0a2c190881338b3ced5d65afa1d89782"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/MoserIteration/Sequences.lean",
+      "sha256": "91f3704aef90f994b4b493b7345f70cd878fa56a97bc659d88f22ca13749fde4",
+      "bytes": 4942,
+      "chs_sha256": "91f3704aef90f994b4b493b7345f70cd878fa56a97bc659d88f22ca13749fde4",
+      "upstream_git_blob": "d5765cc50293c8719389ce493186fde78f1f8955"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/Oscillation.lean",
+      "sha256": "a8bd04c7715b43d7719d7fce067fb8ef70918dc47480fda85c9d535d93e6d442",
+      "bytes": 401,
+      "chs_sha256": "a8bd04c7715b43d7719d7fce067fb8ef70918dc47480fda85c9d535d93e6d442",
+      "upstream_git_blob": "0c9dee5243e641e64a0b6d71cacda8b8fc46c10a"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/Oscillation/BMO.lean",
+      "sha256": "f058625ce847762e404ec0436474aa8ac34c6c88263815d7e972c5ae67598071",
+      "bytes": 24175,
+      "chs_sha256": "f058625ce847762e404ec0436474aa8ac34c6c88263815d7e972c5ae67598071",
+      "upstream_git_blob": "d8fbe06ed6babb5842026dbcbf268040967f5d7d"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/Oscillation/Campanato.lean",
+      "sha256": "eca567a4c6013dd9dbd324b3f0567bfb971ec8a68c4a58d2723d234517373b45",
+      "bytes": 56941,
+      "chs_sha256": "eca567a4c6013dd9dbd324b3f0567bfb971ec8a68c4a58d2723d234517373b45",
+      "upstream_git_blob": "63122b62f1dcda80bbbacf591be10d8202e33e71"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/Oscillation/LocalJohnNirenberg.lean",
+      "sha256": "480532afbc1716e9d15484813e3532b01a2f76ad0b38524b377bc5ae674219b6",
+      "bytes": 101480,
+      "chs_sha256": "480532afbc1716e9d15484813e3532b01a2f76ad0b38524b377bc5ae674219b6",
+      "upstream_git_blob": "81df5127d00618cc1df69ec20a2a84438650a235"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/Poincare.lean",
+      "sha256": "27cc091649748bf5fa99fe49d7bc853db5d9f59d0ad8635387aa554b4665c817",
+      "bytes": 91829,
+      "chs_sha256": "5dcca6c085762557a86c1b7945cfb816b7ea935978b66f863c4a0cfebee0015e",
+      "modification": "Mathlib imports and CHS modification notice",
+      "upstream_git_blob": "fb882a63288682973fda3e5bfba2128087336fd7"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/PositivePart.lean",
+      "sha256": "c8b2729cf59303e87dc65d04314ce311d537bcaec9125436b70d91a85db4d574",
+      "bytes": 41709,
+      "chs_sha256": "f5797e1cc53bba5fba8336b7cf0943c811ac1e22ce8594ef8ab9567f342d0b8e",
+      "modification": "Mathlib imports and CHS modification notice",
+      "upstream_git_blob": "8abc0309e1756d1e811f859f1622c59974f77e07"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/ScaledBallEstimates.lean",
+      "sha256": "327ec1504b15b9bee3ad9563528be4a743e3b2413342dad866a533593280a026",
+      "bytes": 16684,
+      "chs_sha256": "327ec1504b15b9bee3ad9563528be4a743e3b2413342dad866a533593280a026",
+      "upstream_git_blob": "358e3db9a35da480a990a9f2d94aa057eb90cc46"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/SobolevChainRule.lean",
+      "sha256": "2ec43e130cbdcef5e5a9212b7300e90efe7b42e393330a6daae6c86f40af23f5",
+      "bytes": 51154,
+      "chs_sha256": "2ec43e130cbdcef5e5a9212b7300e90efe7b42e393330a6daae6c86f40af23f5",
+      "upstream_git_blob": "2f538093fa3c90f43c8b44426e6b201ef27229de"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/SobolevPoincare.lean",
+      "sha256": "1cafc27ff2ff809dc146b87e2022f727633d5cdfb477784984c377d537955755",
+      "bytes": 38831,
+      "chs_sha256": "1cafc27ff2ff809dc146b87e2022f727633d5cdfb477784984c377d537955755",
+      "upstream_git_blob": "ffecd9be4ded50387fd5b551a79220f2158a2cf6"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/SobolevSpace.lean",
+      "sha256": "6e8d2e02ca8b19f671a43047d7be4affa24c4c3d65c3687036a5a87fe814cb26",
+      "bytes": 500,
+      "chs_sha256": "6e8d2e02ca8b19f671a43047d7be4affa24c4c3d65c3687036a5a87fe814cb26",
+      "upstream_git_blob": "178cfd270a4a557a1a0762a35677c0378ba67579"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/SobolevSpace/Approximation.lean",
+      "sha256": "3324f00cd8e33344b709c061aa1edef101243ce8e069517dabb63d737cca76dc",
+      "bytes": 73939,
+      "chs_sha256": "3324f00cd8e33344b709c061aa1edef101243ce8e069517dabb63d737cca76dc",
+      "upstream_git_blob": "8e52907f8290e82223320bf1cf49ab93575b3498"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/SobolevSpace/PositivePartPrelude.lean",
+      "sha256": "18ab9ef29d240550d48e774606aa0ae7bd234f871638f4f6dc308f3c9d691549",
+      "bytes": 2207,
+      "chs_sha256": "18ab9ef29d240550d48e774606aa0ae7bd234f871638f4f6dc308f3c9d691549",
+      "upstream_git_blob": "81b479330fb5dce3ff4821b9e512cc0966a3f878"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/SobolevSpace/PositiveTestDensity.lean",
+      "sha256": "75c5d6af035af6968b3348fc6920dd583b4810beae0f77c3a03fe3e67308be41",
+      "bytes": 32485,
+      "chs_sha256": "75c5d6af035af6968b3348fc6920dd583b4810beae0f77c3a03fe3e67308be41",
+      "upstream_git_blob": "ddcdb198c2ff152c25836880d70515120820bdc0"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/SobolevSpace/WeakDerivatives.lean",
+      "sha256": "347199db2712add9f3bd5c4e5e954f40957f1b6de58209c69598e9b17d19692b",
+      "bytes": 19850,
+      "chs_sha256": "347199db2712add9f3bd5c4e5e954f40957f1b6de58209c69598e9b17d19692b",
+      "upstream_git_blob": "e39cdd11a25047c141dc81fd494216dec9bfa2ca"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/SobolevSpace/Witnesses.lean",
+      "sha256": "9279154b519c99d42b8e48c0edc6666159c490bb0d5f05f89081e23ee235b8bb",
+      "bytes": 25721,
+      "chs_sha256": "9279154b519c99d42b8e48c0edc6666159c490bb0d5f05f89081e23ee235b8bb",
+      "upstream_git_blob": "cf8174609bfae85673b2d9b7d6b8ed4f4c62592f"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/StampacchiaTruncation.lean",
+      "sha256": "33e36075332febf8a853b329ed38330d15b92c0661aeb297456fbe417178dfd5",
+      "bytes": 46904,
+      "chs_sha256": "d793787b3c629e6fed4bd3aec7deb6bb744794e71676b8218e322af3d0e39bf1",
+      "modification": "Mathlib imports and CHS modification notice",
+      "upstream_git_blob": "d897e345dd48f16b537e1012b1695659bb4cf192"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/StrongMinimum.lean",
+      "sha256": "7676189204880808c7a738a8802db74e8e185db34f59c44ede00d8f11e46f4d3",
+      "bytes": 9676,
+      "chs_sha256": "7676189204880808c7a738a8802db74e8e185db34f59c44ede00d8f11e46f4d3",
+      "upstream_git_blob": "088e2f207550100483daff1d9e425bc3ef446d23"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/Supersolutions.lean",
+      "sha256": "207167ffa70a54d58c6687aadf8fd4371fd5d8d1c7bdc83cd0f2da94941caad0",
+      "bytes": 346,
+      "chs_sha256": "207167ffa70a54d58c6687aadf8fd4371fd5d8d1c7bdc83cd0f2da94941caad0",
+      "upstream_git_blob": "f91731c498edb295b0f2aae5a3c6c6b2356c7b85"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/Supersolutions/Caccioppoli.lean",
+      "sha256": "39e517ae9d73d8a0ff9942b337c0b6b515c91ca984d32cf783443868e784f4aa",
+      "bytes": 22642,
+      "chs_sha256": "39e517ae9d73d8a0ff9942b337c0b6b515c91ca984d32cf783443868e784f4aa",
+      "upstream_git_blob": "3cd893c07bd3c03acb0c90edc601b16fb307c32c"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/Supersolutions/ForwardIteration.lean",
+      "sha256": "f663f345d4479a0fd6a19f45a98d05c2550f5e66c566bb2857af1668f72f01f2",
+      "bytes": 279,
+      "chs_sha256": "f663f345d4479a0fd6a19f45a98d05c2550f5e66c566bb2857af1668f72f01f2",
+      "upstream_git_blob": "8a55789e614abdd6be8d9099cb9c82fdd7df1f3b"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/Supersolutions/ForwardIteration/Basics.lean",
+      "sha256": "414813cf38287512dc7f1d5483917d545e6e4defe3c89e323fe55a6e7006e3c4",
+      "bytes": 4950,
+      "chs_sha256": "414813cf38287512dc7f1d5483917d545e6e4defe3c89e323fe55a6e7006e3c4",
+      "upstream_git_blob": "0033ffeee24a2a8063368bd5be5a6f0c94f58520"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/Supersolutions/ForwardIteration/Energy.lean",
+      "sha256": "6e19216b4b0d632dde4edf58f0bd9bdb7bfa0ce7be1be0a79aa4e439bfbadab3",
+      "bytes": 80605,
+      "chs_sha256": "6e19216b4b0d632dde4edf58f0bd9bdb7bfa0ce7be1be0a79aa4e439bfbadab3",
+      "upstream_git_blob": "da52fc99725e30f55c14455d9603df25079d5f04"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/Supersolutions/ForwardIteration/Iteration.lean",
+      "sha256": "d92eb59d800ca33836c523cc198b94e875063867ff572ca9395d29b43af730b2",
+      "bytes": 23598,
+      "chs_sha256": "d92eb59d800ca33836c523cc198b94e875063867ff572ca9395d29b43af730b2",
+      "upstream_git_blob": "63756e4bcea3bc96b3b461af3527d88671d8bdcc"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/Supersolutions/ForwardIteration/OneStep.lean",
+      "sha256": "03f001d59e313ad17394e7c1e433d19feb7b4e7b2cb6e5b280997ab38395f177",
+      "bytes": 14856,
+      "chs_sha256": "03f001d59e313ad17394e7c1e433d19feb7b4e7b2cb6e5b280997ab38395f177",
+      "upstream_git_blob": "da16a82762737cbd6adb7df7a47d838f0d75714a"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/Supersolutions/InverseEnergy.lean",
+      "sha256": "0a4435a15b43f8481f5a6624dfe5edce16eced55fb5799442e0699dc9cdd4a3e",
+      "bytes": 77845,
+      "chs_sha256": "0a4435a15b43f8481f5a6624dfe5edce16eced55fb5799442e0699dc9cdd4a3e",
+      "upstream_git_blob": "46cacd5709c895bd3b894b4f724b3cf847bfdc07"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/Supersolutions/InverseIteration.lean",
+      "sha256": "e61018abef7816a5ad5d10285ee756df00eb1acfc15b5c826eccbfab3f272de3",
+      "bytes": 37575,
+      "chs_sha256": "e61018abef7816a5ad5d10285ee756df00eb1acfc15b5c826eccbfab3f272de3",
+      "upstream_git_blob": "868dfa0644bc38b4746d06e22ad4763d184d4084"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/Supersolutions/InverseOneStep.lean",
+      "sha256": "b39e3f4f96dfc9b05aec0ea891db0506cd549e9e269b0a797fe8d2012723bd1b",
+      "bytes": 15870,
+      "chs_sha256": "b39e3f4f96dfc9b05aec0ea891db0506cd549e9e269b0a797fe8d2012723bd1b",
+      "upstream_git_blob": "d96df1792d0e766fd7069bcb4edd7db7e8895daa"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/Supersolutions/RegularizationSupport.lean",
+      "sha256": "a544060b9c5ed34e0ce42d82bdc6df64082acd12bc5b541b9fc09a6dd184d2e7",
+      "bytes": 15936,
+      "chs_sha256": "a544060b9c5ed34e0ce42d82bdc6df64082acd12bc5b541b9fc09a6dd184d2e7",
+      "upstream_git_blob": "7c8328298ee1cfb3f691425c26d12b87b65a043a"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/Supersolutions/StageOne.lean",
+      "sha256": "989101edf5cec1269a2818cc902e125afcf8d830804c53290cd8a2b786f42620",
+      "bytes": 29901,
+      "chs_sha256": "989101edf5cec1269a2818cc902e125afcf8d830804c53290cd8a2b786f42620",
+      "upstream_git_blob": "c72380d5a1ad84b8b6e5a84d2d8eacb4ae662bea"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/Supersolutions/TestFunctions.lean",
+      "sha256": "814cd2d8d6f6a1dc9a4121d1cd106234080cf88c0b6ed7e4cc8996f92e7ec659",
+      "bytes": 97306,
+      "chs_sha256": "814cd2d8d6f6a1dc9a4121d1cd106234080cf88c0b6ed7e4cc8996f92e7ec659",
+      "upstream_git_blob": "28fb366cfef966034a4d0c2121deb8573496b6fa"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/Support/IterationConstants.lean",
+      "sha256": "36b01db4530748afd012220251fdc09b6c0a4ca3edfe2bda990f82f3b01a5a36",
+      "bytes": 3248,
+      "chs_sha256": "36b01db4530748afd012220251fdc09b6c0a4ca3edfe2bda990f82f3b01a5a36",
+      "upstream_git_blob": "483c10328ece73d847855d10af4266e6d8eb9118"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/Support/MeasureBounds.lean",
+      "sha256": "2913430fba55c09ee96486d1f931149f23187c5679bb6f561be991d1521be943",
+      "bytes": 7800,
+      "chs_sha256": "2913430fba55c09ee96486d1f931149f23187c5679bb6f561be991d1521be943",
+      "upstream_git_blob": "f07fba8573351349698305f62de6b24a92664bea"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/UnitBallApproximation.lean",
+      "sha256": "0b10ba991a2c762f319dd7b170245c6acd18d7062bec8b72c5888ec431eb268d",
+      "bytes": 466,
+      "chs_sha256": "0b10ba991a2c762f319dd7b170245c6acd18d7062bec8b72c5888ec431eb268d",
+      "upstream_git_blob": "c28b9f77b35569c838613d84587c3bcf095c0b4c"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/UnitBallApproximationCore.lean",
+      "sha256": "8084b8893698183ce2a6bd7203843238710c8154281229948e3f6d716667bfcd",
+      "bytes": 515,
+      "chs_sha256": "8084b8893698183ce2a6bd7203843238710c8154281229948e3f6d716667bfcd",
+      "upstream_git_blob": "c1f16d13ad98fe6c6437ed67a148005c03a04db4"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/UnitBallApproximationCore/Approximation.lean",
+      "sha256": "bd0c3b2a3d51263229840c640a561ad0bb5211b16e3b1468334a55d3ae6ceb4e",
+      "bytes": 64190,
+      "chs_sha256": "bd0c3b2a3d51263229840c640a561ad0bb5211b16e3b1468334a55d3ae6ceb4e",
+      "upstream_git_blob": "35c2d253db296ae5ab7bd5bbc932028a2f570eae"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/UnitBallApproximationCore/Dilation.lean",
+      "sha256": "4d93e6bc184a2c3d6286caef87e599d1ace010f94fdef0b16f318ffd707f6097",
+      "bytes": 11629,
+      "chs_sha256": "4d93e6bc184a2c3d6286caef87e599d1ace010f94fdef0b16f318ffd707f6097",
+      "upstream_git_blob": "88217384328b14f3f2dfdaf2244e6521147f248e"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/UnitBallApproximationCore/Profiles.lean",
+      "sha256": "a43ea47fe6bfb57380f25d177598109f189f17230a655cb66c47c0545a7f1b3f",
+      "bytes": 10121,
+      "chs_sha256": "a43ea47fe6bfb57380f25d177598109f189f17230a655cb66c47c0545a7f1b3f",
+      "upstream_git_blob": "c18b5fa233fbd5d681b2b828a1a5a97d845dcb2d"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/UnitBallApproximationCore/Rescaling.lean",
+      "sha256": "37f071db9bb2a7e863cdc90536ad2e335b85c15db234d3c9c8ec052b4518fd21",
+      "bytes": 11259,
+      "chs_sha256": "37f071db9bb2a7e863cdc90536ad2e335b85c15db234d3c9c8ec052b4518fd21",
+      "upstream_git_blob": "ac64a9813663b62eef0c4b0438f2b2a511521d74"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/WeakFormulation.lean",
+      "sha256": "e7e86394771b1b7741e685cecd550a52d1ffa52850e0e5a904142a60e9ffb5a4",
+      "bytes": 330,
+      "chs_sha256": "e7e86394771b1b7741e685cecd550a52d1ffa52850e0e5a904142a60e9ffb5a4",
+      "upstream_git_blob": "bb5101ccc56900d2e327ea5e529b0b037840206d"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/WeakFormulation/BilinearForm.lean",
+      "sha256": "98b1ea0270a570bfe9dd4bb20840ce768fd7ba1b73382ad0a49a0484c3d41696",
+      "bytes": 28391,
+      "chs_sha256": "98b1ea0270a570bfe9dd4bb20840ce768fd7ba1b73382ad0a49a0484c3d41696",
+      "upstream_git_blob": "86f0d944b5dee260630bd0025342532e8457f36c"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/WeakFormulation/CoefficientOperator.lean",
+      "sha256": "fb2026ef76c31be3182158cb7ebf898095182a12ac451d359a8a547a2c678292",
+      "bytes": 16908,
+      "chs_sha256": "82c1bb299cdd166ac42adb9aaf9d9ce306983ca6f9a254a992638ae305fcd0eb",
+      "modification": "Mathlib imports and CHS modification notice",
+      "upstream_git_blob": "9854a41aa8552a7a23476b132efce825a6caa182"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/WeakFormulation/ExistenceTheory.lean",
+      "sha256": "37e06e4fc723f7e73c51eb374fd774ed5d263edf9cda0917d77d634cba851a53",
+      "bytes": 76022,
+      "chs_sha256": "37e06e4fc723f7e73c51eb374fd774ed5d263edf9cda0917d77d634cba851a53",
+      "upstream_git_blob": "5aac7b3a4afffb66c6b2922c9fc131acf62a0ecf"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/WeakFormulation/SmoothTests.lean",
+      "sha256": "042dac11cd87e78543b9aaf219316dd297770e53f7709a77629b4e28d110e368",
+      "bytes": 13101,
+      "chs_sha256": "042dac11cd87e78543b9aaf219316dd297770e53f7709a77629b4e28d110e368",
+      "upstream_git_blob": "3cfa505318f183185f1ff3411c3def65ffc987ae"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/WeakFormulation/SolutionInterfaces.lean",
+      "sha256": "42d04fc27c20143d93365b261faf01cd55aafd84db223d585fee43734167f1e4",
+      "bytes": 4096,
+      "chs_sha256": "42d04fc27c20143d93365b261faf01cd55aafd84db223d585fee43734167f1e4",
+      "upstream_git_blob": "8d380927fc64e14be4db08cf03e6af4367f8e7d4"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/WeakFormulation/WeakDivergence.lean",
+      "sha256": "9ed4a7c226973aae8f72aa73b671daf796e3e9539c6514b11ad2c364625a9556",
+      "bytes": 12139,
+      "chs_sha256": "9ed4a7c226973aae8f72aa73b671daf796e3e9539c6514b11ad2c364625a9556",
+      "upstream_git_blob": "3540fd9633d8555558e93fa821647cda281f5a1e"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/WeakFormulation/WeightedEstimates.lean",
+      "sha256": "6edd188204b6d88342649de8a8f51b2184735dcad05b750a21f30b0b86778805",
+      "bytes": 21118,
+      "chs_sha256": "6edd188204b6d88342649de8a8f51b2184735dcad05b750a21f30b0b86778805",
+      "upstream_git_blob": "63d461211dea0c7b68b846adce0b374267ebd7c5"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/WeakHarnack.lean",
+      "sha256": "f50058102fb6a68ecef88cc4cc8d950643f1ae66ff69299850da86858b1db293",
+      "bytes": 93267,
+      "chs_sha256": "f50058102fb6a68ecef88cc4cc8d950643f1ae66ff69299850da86858b1db293",
+      "upstream_git_blob": "616ea9f085a6160f4da647f47842338dced53e25"
+    },
+    {
+      "path": "DifferentialGeometry/External/DeGiorgi/WholeSpaceSobolev.lean",
+      "sha256": "7d2037b506aa09d94f84ea59e7e9444ca7f753458b074bcff364c0ea24709cfc",
+      "bytes": 21300,
+      "chs_sha256": "7d2037b506aa09d94f84ea59e7e9444ca7f753458b074bcff364c0ea24709cfc",
+      "upstream_git_blob": "159d863d1c96865742d82c7f81fac6c3ca2dfaff"
+    }
+  ],
+  "upstream_git_tree": "585a1d2849bd283982f05af61998dc10940373bb"
+}

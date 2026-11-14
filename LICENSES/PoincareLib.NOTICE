@@ -1,0 +1,5 @@
+Copyright (c) 2026 The PoincareLib contributors.
+
+CofactorDivergence.lean adapts the Jacobi formula proof from
+PoincareLib/Analysis/Matrix/Determinant.lean through the KE-Ball project.
+See Poincare-Conjecture.LICENSE and the source revisions in THIRD_PARTY.md.

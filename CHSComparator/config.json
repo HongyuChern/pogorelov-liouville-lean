@@ -1,0 +1,27 @@
+{
+  "challenge_module": "CHSComparator.Challenge",
+  "solution_module": "CHSComparator.Solution",
+  "theorem_names": [
+    "CHSComparator.Targets.theorem_1_1",
+    "CHSComparator.Targets.theorem_1_2",
+    "CHSComparator.Targets.theorem_1_3",
+    "CHSComparator.Targets.corollary_1_4",
+    "CHSComparator.Targets.lemma_2_1",
+    "CHSComparator.Targets.lemma_2_2_nonnegative",
+    "CHSComparator.Targets.lemma_2_2_positive",
+    "CHSComparator.Targets.lemma_2_3_identity",
+    "CHSComparator.Targets.lemma_2_3_nonpositive",
+    "CHSComparator.Targets.proposition_2_4",
+    "CHSComparator.Targets.lemma_2_5",
+    "CHSComparator.Targets.lemma_2_6",
+    "CHSComparator.Targets.lemma_3_1",
+    "CHSComparator.Targets.proposition_3_2"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

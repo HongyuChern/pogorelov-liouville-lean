@@ -1,0 +1,20 @@
+name = "chsStartup"
+version = "0.2.0"
+defaultTargets = ["CHS"]
+
+[leanOptions]
+autoImplicit = false
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "0df444a360eaa60ab8c11dca51a86af692955474"
+
+[[lean_lib]]
+name = "DifferentialGeometry"
+
+[[lean_lib]]
+name = "CHS"
+
+[[lean_lib]]
+name = "CHSComparator"
