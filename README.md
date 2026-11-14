@@ -22,9 +22,9 @@ lake exe cache get
 lake build
 ```
 
-This repository contains **84,104 lines across 299 tracked Lean files**, including the bundled De Giorgi sources. The full pinned Mathlib repository contains **2,377,849 lines of Lean**. Lake fetches Mathlib and its transitive dependencies separately. Both counts include comments and blank lines.
+The formalization of all 12 numbered results spans **74,663 lines across 247 Lean files**, counting `CHS.PaperTargets` and its transitive imports within this repository. The [v0.1.1 release](https://github.com/HongyuChern/pogorelov-liouville-lean/releases/tag/v0.1.1) ships **84,104 lines across 299 Lean files**, including the Comparator and audit files. Both counts include bundled De Giorgi sources, comments, and blank lines. Lake fetches Mathlib and its transitive dependencies separately.
 
-## Verify
+## Comparator
 
 The four main results have an independent challenge that uses only Mathlib. The statements spell out the Hessians, boundary regularity, and norms, and the bridge proves that each proposition is equivalent to its counterpart in the original suite. The four `sorry` placeholders in the challenge stand in for the proofs supplied by the solution.
 
@@ -32,7 +32,7 @@ The four main results have an independent challenge that uses only Mathlib. The 
 
 The [original suite](CHSComparator/config.json) covers all 12 numbered results through 14 declarations using the shared CHS definitions. Both suites use Lean and Nanoda and allow only `propext`, `Classical.choice`, and `Quot.sound`. [Targets and Linux reproduction instructions](CHSComparator/README.md)
 
-The independent challenge built in a standalone Lake project whose sole direct dependency was Mathlib. On Ubuntu 24.04 ARM64, the repository build succeeded and both kernels accepted the four main proofs. The receipt records the tool revisions, axiom audit, and SHA-256 hashes of the checked inputs. [v0.1.1 release](https://github.com/HongyuChern/pogorelov-liouville-lean/releases/tag/v0.1.1)
+The independent challenge built in a standalone Lake project whose sole direct dependency was Mathlib. On Ubuntu 24.04 ARM64, the repository build succeeded and both kernels accepted the four main proofs. The receipt records the tool revisions, axiom audit, and SHA-256 hashes of the checked inputs.
 
 ## Source and attribution
 
