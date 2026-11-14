@@ -22,7 +22,17 @@ lake exe cache get
 lake build
 ```
 
-The formalization of all 12 numbered results spans **74,663 lines across 247 Lean files**, counting `CHS.PaperTargets` and its transitive imports within this repository. The [v0.1.1 release](https://github.com/HongyuChern/pogorelov-liouville-lean/releases/tag/v0.1.1) ships **84,104 lines across 299 Lean files**, including the Comparator and audit files. Both counts include bundled De Giorgi sources, comments, and blank lines. Lake fetches Mathlib and its transitive dependencies separately.
+| Lean source counted | Files | Lines |
+| --- | ---: | ---: |
+| Complete import closure for all 12 numbered results | 5,429 | 1,770,710 |
+| Mathlib files within that closure | 3,386 | 1,137,734 |
+| [v0.1.1 source release](https://github.com/HongyuChern/pogorelov-liouville-lean/releases/tag/v0.1.1) | 299 | 84,104 |
+
+The closure starts at `CHS.PaperTargets` and counts each recursively imported
+Lean source file once. It includes 74,663 lines from this repository, including
+the bundled De Giorgi sources, as well as the imported Lean toolchain and other
+Lake dependencies. The release count also includes files shipped for Comparator
+and audits. All counts include comments and blank lines.
 
 ## Comparator
 
