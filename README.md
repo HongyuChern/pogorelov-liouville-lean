@@ -31,11 +31,13 @@ other dependencies. [v0.1.1 source release](https://github.com/HongyuChern/pogor
 
 The four main results have an independent challenge that uses only Mathlib. The statements spell out the Hessians, boundary regularity, and norms, and the bridge proves that each proposition is equivalent to its counterpart in the original suite. The four `sorry` placeholders in the challenge stand in for the proofs supplied by the solution.
 
-[Challenge](CHSComparator/MathlibOnly/Challenge.lean) · [Statements](CHSComparator/MathlibOnly/Statements.lean) · [Bridge](CHSComparator/MathlibOnly/Bridge.lean) · [Solution](CHSComparator/MathlibOnly/Solution.lean) · [Configuration](CHSComparator/MathlibOnly/config.json) · [Linux verification receipt](CHSComparator/MathlibOnly/linux-verification.json)
+[Challenge](CHSComparator/MathlibOnly/Challenge.lean) · [Statements](CHSComparator/MathlibOnly/Statements.lean) · [Bridge](CHSComparator/MathlibOnly/Bridge.lean) · [Solution](CHSComparator/MathlibOnly/Solution.lean) · [Configuration](CHSComparator/MathlibOnly/config.json)
 
 The [original suite](CHSComparator/config.json) covers all 12 numbered results through 14 declarations using the shared CHS definitions. Both suites use Lean and Nanoda and allow only `propext`, `Classical.choice`, and `Quot.sound`. [Targets and Linux reproduction instructions](CHSComparator/README.md)
 
 The independent challenge built in a standalone Lake project whose sole direct dependency was Mathlib. On Ubuntu 24.04 ARM64, the repository build succeeded and both kernels accepted the four main proofs. The receipt records the tool revisions, axiom audit, and SHA-256 hashes of the checked inputs.
+
+The checked source and build inputs match [commit `4b96f04`](https://github.com/HongyuChern/pogorelov-liouville-lean/commit/4b96f044a35423964a39c386e88700a127f3183d) for the original suite and [commit `b8d5bcd`](https://github.com/HongyuChern/pogorelov-liouville-lean/commit/b8d5bcd0bba52f39ec63e5011c9a07eedc52102a) for the four independent main results. [Original-suite Linux receipt](https://github.com/HongyuChern/pogorelov-liouville-lean/blob/4b96f044a35423964a39c386e88700a127f3183d/CHSComparator/linux-verification.json) · [Independent-suite Linux receipt](https://github.com/HongyuChern/pogorelov-liouville-lean/blob/b8d5bcd0bba52f39ec63e5011c9a07eedc52102a/CHSComparator/MathlibOnly/linux-verification.json)
 
 ## Source and attribution
 
